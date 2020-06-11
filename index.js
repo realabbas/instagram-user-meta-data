@@ -53,7 +53,8 @@ request(options1, function (error, response) {
     user = {
       name: data.name,
       username: data.alternateName,
-      description: data.description.replace("&quot;", '"').trim(),
+      description: data.description
+//.replace("&quot;", '"').trim(),
     };
     request(options2, function (err, res) {
       if (err) throw new Error(err);
