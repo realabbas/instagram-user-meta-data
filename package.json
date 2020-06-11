@@ -1,0 +1,23 @@
+{
+  "name": "instacard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realabbas/instacard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realabbas/instacard/issues"
+  },
+  "homepage": "https://github.com/realabbas/instacard#readme",
+  "dependencies": {
+    "x-ray": "^2.3.4"
+  }
+}

@@ -3,7 +3,6 @@ let profile_url = "https://www.instadp.com/fullsize/realabbas5";
 // var fs = require("fs");
 var Xray = require("x-ray");
 var x = Xray();
-const axios = require("axios");
 
 // axios
 //   .all([axios.get(insta_url), axios.get(profile_url)])
