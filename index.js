@@ -1,5 +1,7 @@
-let insta_url = "https://www.instagram.com/realabbas5/";
-let profile_url = "https://www.instadp.com/fullsize/realabbas5";
+let username = process.argv[2]
+console.log('Profile Showing for '+ username)
+let insta_url = `https://www.instagram.com/${username}/`;
+let profile_url = `https://www.instadp.com/fullsize/${username}`;
 // var fs = require("fs");
 var Xray = require("x-ray");
 var x = Xray();
