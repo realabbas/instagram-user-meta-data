@@ -8,20 +8,22 @@
 git clone "https://github.com/realabbas/instagram-user-meta-data.git"
 cd instacard
 npm install
-node index "your-username"
+node index.js "your-username"
 ```
 
 ### Usage
 
-*Instagram Usersname is Required*
+*Instagram Username is Required*
 
-``` node index realabbas5 ```
+Run the following command
+
+``` node index.js realabbas5 ```
 
 #### Output
 
 ![Instagram User Meta Data Output](./demo/output.png)
 
-**JSON Object**
+**DATA is returned as JSON Object**
 
 ```
 Profile Showing for realabbas5
