@@ -2,6 +2,8 @@
 
 ![Instagram Profile Card Meta Data Instacard](https://raw.githubusercontent.com/realabbas/instagram-user-meta-data/master/demo/instacard.png)
 
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=realabbas.instagram-user-meta-data)
+
 ## Installation Guide
 
 ```
