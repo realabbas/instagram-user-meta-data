@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Instagram Profile Card
 
-You can use the [editor on GitHub](https://github.com/realabbas/instacard/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Instagram Profile Card Meta Data Instacard](https://raw.githubusercontent.com/realabbas/instagram-user-meta-data/master/demo/instacard.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation Guide
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone "https://github.com/realabbas/instagram-user-meta-data.git"
+cd instacard
+npm install
+node index.js "your-username"
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Usage
 
-### Jekyll Themes
+*Instagram Username is Required*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/realabbas/instacard/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Run the following command
 
-### Support or Contact
+``` node index.js realabbas5 ```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Output
+
+![Instagram User Meta Data Output](https://github.com/realabbas/instagram-user-meta-data/blob/master/demo/output.png?raw=true)
+
+**DATA is returned as JSON Object**
+
+```
+Profile Showing for realabbas5
+{
+  name: 'Ali Rizvi',
+  username: '@realabbas5',
+  description: '&quot; Try being so small that everybody loves to sit with you and so big that nobody sits when you stand &quot;\n' +
+    'Tech Lover and Enthusiast\n' +
+    'Serious Developer���',
+  image: 'https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s320x320/130936940_1290094604691569_5602805999393245553_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&_nc_ohc=WCVw2CW82IEAX9k89ak&tp=1&oh=ff099a87f96f96a4700f7a2cf660f508&oe=6016294D'
+}
+```
